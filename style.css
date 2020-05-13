@@ -3,3 +3,32 @@ html, body{
     overflow: hidden;
     font-family: 'Raleway', sans-serif;
 }
+body{
+    background-color: #42a8f6;
+}
+header{
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-between;
+    align-items: center;
+    width: 80%;
+    background-color: #42a8f6;
+    margin: 0 auto;
+}
+.logo{
+    background-image: url(icons/logo.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+    width: 100px;
+    height: 33px;
+    margin: 0;
+}
+.navigation{
+    list-style: none;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-between;
+    align-items: center;
+    width: 60%;
+    color: aliceblue;
+}
