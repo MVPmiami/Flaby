@@ -6,16 +6,18 @@ html, body{
 body{
     background-color: #42a8f6;
 }
+/********************HEADER****************************/
 header{
     display: flex;
     flex-flow: row wrap;
     justify-content: space-between;
     align-items: center;
-    width: 80%;
+    width: 60%;
     background-color: #42a8f6;
     margin: 0 auto;
 }
 .logo{
+    cursor: pointer;
     background-image: url(icons/logo.png);
     background-size: contain;
     background-repeat: no-repeat;
@@ -24,11 +26,33 @@ header{
     margin: 0;
 }
 .navigation{
+    cursor: pointer;
     list-style: none;
     display: flex;
     flex-flow: row wrap;
     justify-content: space-between;
     align-items: center;
     width: 60%;
-    color: aliceblue;
+    color: #FFFFFF;
+    font-family: 'Raleway', sans-serif;
+}
+.navigation li:last-of-type{
+    background-color:#479EE1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 106px;
+    height: 50px;
+    border-radius: 10px;
+}
+.left-side{
+    background-image: url(icons/Headphones.png);
+    background-size: 200%;
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 597px;
+    height: 415px;
+    position: absolute;
+    top: 0px;
+    left: -220px;
 }
